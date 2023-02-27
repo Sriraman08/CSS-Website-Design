@@ -1,0 +1,747 @@
+:root {
+    --font-family: 'Bebas Neue', cursive;
+    --font-family2: 'Poppins', 'sans-serif';
+    --background: #151A20;
+    --color: #FFFFFF;
+    --font-weight: 400;
+    --font-size: 64px;
+    --btn-color: #FFC30D;
+}
+
+* h5,
+h4,
+h1 {
+    font-family: var(--font-family);
+    color: var(--color);
+}
+
+
+body {
+    background: var(--background);
+}
+
+.top_header-back {
+    background: url(./img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo-part {
+
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sub-bell {
+
+    margin-top: 18px;
+}
+
+.user-img-div .user-png {
+    height: 65px;
+}
+
+.user-text-div {
+    color: var(--color);
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.user-img-div img {
+    height: 80px;
+}
+
+.user-text-div .time-square {
+    height: 15px;
+    margin-right: 10px;
+}
+
+.logo img {
+    width: 10rem;
+}
+
+.user img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.user-img h6 {
+    color: var(--color);
+}
+
+.dune-text {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 260px;
+
+}
+
+.dune-part {
+    color: var(--color);
+    bottom: 0;
+
+}
+
+.part-one {
+    position: relative;
+}
+
+.part-oneAbs {
+    bottom: 0;
+}
+
+.rating li {
+    text-decoration: none;
+    color: var(--color);
+    display: inline-flex;
+    padding-right: 10px;
+    font-family: var(--font-family);
+    margin: auto;
+    font-size: 25px;
+}
+
+.btn-1 a {
+    text-decoration: none;
+    color: var(--color);
+    padding: 12px 12px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+    box-shadow: 0px 15px 30px rgba(20, 102, 204, 0.16);
+    backdrop-filter: blur(30px);
+    border-radius: 13px;
+}
+
+.web-img img {
+    height: 659px;
+    width: 100%;
+}
+
+.web-img::after {
+    content: " ";
+    background-image: url("/img/web-red.png");
+    position: absolute;
+    width: 100%;
+    height: 81%;
+    left: 0;
+    bottom: 0;
+    background-size: cover;
+}
+
+.WEB-DLRip {
+    position: relative;
+    top: 140px;
+}
+
+.web-text {
+    position: absolute;
+    bottom: 0;
+    color: var(--color);
+    width: 100%;
+}
+
+.web-text h4 {
+
+    width: 25%;
+    padding: 5px 3px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+    border-radius: 0px 10px 10px 0px;
+    /* margin-left: 15px; */
+    text-align: center;
+}
+
+.web-text h1,
+p {
+    margin-left: 15px;
+}
+
+.spiral li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+.spiral a {
+    text-decoration: none;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    padding: 10px 30px;
+    color: var(--color);
+    background-color: var(--btn-color);
+    border-radius: 10px 0px;
+}
+
+.spiral li img {
+    margin-left: 15px;
+}
+
+.dell-img img {
+    width: 100%;
+}
+
+.dell-img::after {
+    content: " ";
+    background-image: url("/img/dell-bg.png");
+    position: absolute;
+    width: 100%;
+    height: 81%;
+    left: 0;
+    bottom: 0;
+    background-size: cover;
+
+}
+
+.knife-img::after {
+    content: " ";
+    background-image: url("/img/dell-bg.png");
+    position: absolute;
+    width: 100%;
+    height: 81%;
+    left: 0;
+    bottom: 0;
+    background-size: cover;
+}
+
+.dell-cap {
+    position: relative;
+    top: 200px;
+}
+
+.dell-text {
+    position: absolute;
+    bottom: 0;
+    color: var(--color);
+    width: 100%;
+
+}
+
+.del-list {
+    display: flex;
+    list-style: none;
+    color: var(--color);
+    margin-left: 10px;
+
+}
+
+.del-list a {
+    position: absolute;
+    color: var(--color);
+    background: var(--btn-color);
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px 0px;
+    bottom: 0;
+    right: 0;
+
+}
+
+.dell-text h5 {
+    margin-left: 10px;
+}
+
+
+
+.knife-img img {
+    width: 100%;
+}
+
+.dual-face img {
+    width: 100%;
+}
+
+.landscape-img {
+    position: relative;
+    top: 230px;
+}
+
+.dual-face::after {
+    content: " ";
+    background-image: url("/img/twoface.png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background-size: contain;
+}
+
+.land-text {
+    position: absolute;
+    bottom: 0;
+    color: var(--color);
+    width: 100%;
+}
+
+.land-list a {
+    position: absolute;
+    color: var(--color);
+    background: var(--btn-color);
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px 0px;
+    bottom: 0;
+    right: 0;
+}
+
+.land-text h5 {
+    margin-left: 15px;
+    font-size: 40px;
+    font-family: var(--font-family);
+}
+
+.offset-1 {
+
+    margin-left: 6.333333% !important;
+    width: 93%;
+}
+
+.owl-carousel {
+    position: relative;
+}
+
+.owl-carousel::after {
+    content: '';
+    position: absolute;
+    right: -22px;
+    background: linear-gradient(90deg, rgba(21, 26, 32, 0.1) 0%, rgba(21, 26, 32, 0.9) 50%, rgba(21, 26, 32, 6) 100%);
+    width: 290px;
+    height: 210px;
+    opacity: ;
+    bottom: 0;
+}
+
+.side {
+    position: relative;
+}
+
+.sidebar {
+    position: fixed;
+    top: 30px;
+    left: 0;
+    width: 50px;
+    height: 95%;
+    padding: 22px 16px;
+    align-items: center;
+    background: #1E242C;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.icons i {
+    color: rgba(255, 255, 255, 1);
+    margin: 25px 0px;
+    font-size: 25px;
+}
+
+.icons {
+    text-align: center;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.logo-end img {
+    width: 90px
+}
+
+.logo-end h6 {
+    color: rgba(142, 142, 142, 1);
+    margin: auto;
+}
+
+.logo-end li {
+    list-style: none;
+    color: white;
+    margin: auto;
+}
+
+.logo-end {
+
+    text-align: center;
+    background-color: #1E242C;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.footer-bg {
+    background-color: #1E242C;
+}
+
+.search a {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+
+    .dune-part {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+    .WEB-DLRip h1 {
+        margin-top: 0;
+    }
+
+    .sidebar {
+        width: auto;
+        height: auto;
+        padding: 40px 12px;
+
+    }
+
+    .icons i {
+        font-size: 15px;
+    }
+
+    .owl-carousel::after {
+        background: linear-gradient(90deg, rgba(21, 26, 32, 0.1) 0%, rgba(21, 26, 32, 0.9) 50%, rgb(21, 26, 32) 100%);
+        width: 196px;
+        height: 163px;
+        bottom: 0px;
+    }
+
+    .spiral img {
+        width: auto;
+    }
+
+    .WEB-DLRip h1 {
+        margin-top: 0 !important;
+    }
+
+    .land-text h5 {
+        margin-top: 20px;
+    }
+
+    .owl-text {
+        margin-top: 8rem !important;
+    }
+
+    .logo-end li {
+        font-size: 12px;
+    }
+
+    .dell-cap {
+        top: 120px;
+        padding: 0;
+    }
+
+    .landscape-img {
+        top: 130px;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .user-img-div .user-png {
+        height: 50px
+    }
+
+    .logo-part {
+        margin: auto;
+    }
+
+    .WEB-DLRip h1 {
+        margin-top: 16rem;
+    }
+
+    .logo-part img {
+        width: 55px;
+
+        margin-top: 0px;
+    }
+
+    .dune-text {
+        display: inline-block;
+    }
+
+    .side-photo {
+        margin-top: 30px;
+    }
+
+    .cast-img {
+        width: 100%;
+    }
+
+    .sub-div .sub-png {
+        width: auto;
+    }
+
+    .bell-div .bell-png {
+        width: auto;
+
+    }
+
+    .user-text-div {
+        color: var(--color);
+        margin-top: 10px;
+        margin-right: 7px
+    }
+
+    .user-text-div .time-square {
+        width: auto;
+    }
+
+    .user-text-div h6 {
+        font-size: 12px;
+    }
+
+    .sub-bell {
+        margin: 0px;
+    }
+
+    .cast-img {
+        margin-top: 15px;
+        position: absolute;
+        width: 100%;
+    }
+
+    .land-list a {
+        bottom: -44px;
+        left: 0;
+        width: 45%
+    }
+
+    .spiral a {
+        left: 0;
+        width: 45%;
+        bottom: -20%;
+    }
+
+    .dell-img img {
+        margin-top: 3rem;
+    }
+
+    .land-text h5 {
+        font-size: 25px;
+    }
+
+    .del-list a {
+        width: 35%;
+        bottom: -47%;
+        left: 0;
+    }
+
+    .dual-face img {
+        margin-top: 12rem;
+    }
+
+    .categories {
+        margin-top: 8rem;
+    }
+
+    .owl-carousel::after {
+        display: none;
+    }
+
+    .sidebar {
+        z-index: 2;
+    }
+
+    .logo-end {
+        text-align: left;
+    }
+    .WEB-DLRip {
+        position: relative;
+        top: 20rem;
+    }
+    .dell-cap {
+        position: relative;
+        top: 23rem;
+    }
+    .dual-face::after
+    {
+        background: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .sidebar {
+        z-index: 1;
+        height: 100%;
+    }
+
+
+    .dune-part {
+        margin-left: 2rem;
+    }
+
+    .logo img {
+        width: 90px;
+    }
+    .dell-cap {
+        top: 192px;
+    }
+
+    .web-img img {
+        height: 486px;
+    }
+
+    .owl-carousel::after {
+        height: 109px;
+    }
+
+    .web-img img {
+        width: 95%;
+        margin-left: 2rem;
+    }
+
+    .web-img::after {
+        left: 9px;
+    }
+
+    .web-text h1,
+    p {
+        margin-left: 3rem;
+    }
+
+    .spiral li {
+        margin-left: 3rem;
+    }
+
+    .spiral li img {
+        margin-left: 5px;
+    }
+
+    .owl-carousel::after {
+        height: 159px;
+        width: 180px;
+    }
+
+    .web-text h4 {
+        margin-left: 2rem;
+    }
+
+    .WEB-DLRip h1 {
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1398.98px) {
+    .logo img {
+        width: 8rem;
+    }
+
+    .sidebar {
+        z-index: 1;
+    }
+
+    .dune-part {
+        margin-left: 1rem;
+    }
+
+    .web-img img {
+        height: 578px;
+        width: 95%;
+        margin-left: 1rem;
+    }
+
+    .web-text h4 {
+        margin-left: 10px;
+    }
+
+    .web-text {
+        width: 98%
+    }
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 574px) {
+    .dune-text {
+        display: inline-block;
+        margin-left: 2rem;
+    }
+
+    .logo img {
+        width: 5rem;
+    }
+
+    .sub-bell {
+
+        margin-top: 0;
+    }
+
+    .user-img-div .user-png {
+        height: 53px;
+    }
+
+    .user-text-div h6 {
+        font-size: 10px;
+    }
+
+    .spiral a {
+        bottom: -46px;
+        left: 0;
+        width: 44%;
+    }
+
+    .sidebar {
+        z-index: 2;
+    }
+
+    .del-list a {
+        bottom: -40px;
+        left: 0;
+        width: 30%;
+    }
+
+    .categories {
+        margin-top: 9rem;
+
+    }
+
+    .owl-carousel::after {
+        background: none;
+    }
+
+    .land-list a {
+        bottom: -46px;
+        left: 0;
+        width: 44%;
+    }
+
+    .land-text h5 {
+        font-size: 25px;
+    }
+
+    .dual-face img {
+        margin-top: 2rem;
+
+    }
+
+    .logo-end {
+        text-align: left;
+    }
+    .WEB-DLRip h1 {
+        margin-top: 0;
+    }
+    .side-photo {
+        margin-top: 30px;
+    }
+
+    .cast-img {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 575px) and (max-width: 767px)
+{
+    .dune-text
+    {
+        display: block;
+        margin-left: 2rem;
+    }
+    .side-photo {
+        margin-top: 30px;
+    }
+
+    .cast-img {
+        width: 100%;
+    }
+
+}
